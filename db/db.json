@@ -1,0 +1,28 @@
+{
+  "employee": [
+    {
+      "firstName": "Ritik",
+      "lastName": "Kumar",
+      "email": "ritikk910@gmail.com",
+      "dob": "2023-04-01T18:30:00.000Z",
+      "gender": "male",
+      "education": "High School",
+      "company": "Konfav",
+      "salary": 12,
+      "experience": 12,
+      "id": 1
+    },
+    {
+      "firstName": "Ram",
+      "lastName": "sinha",
+      "email": "ram@gmail.com",
+      "dob": "2023-04-10T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "konfav",
+      "salary": 12,
+      "experience": 2,
+      "id": 2
+    }
+  ]
+}
