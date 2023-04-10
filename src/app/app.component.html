@@ -60,7 +60,7 @@
       <ng-container matColumnDef="action">
         <mat-header-cell *matHeaderCellDef>Action</mat-header-cell>
         <mat-cell *matCellDef="let row">
-          <button mat-icon-button color="primary">
+          <button mat-icon-button color="primary" (click)="editEmployee(row)">
             <mat-icon>edit</mat-icon>
           </button>
           <button mat-icon-button color="warn" (click)="deleteEmployee(row.id)">

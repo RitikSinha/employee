@@ -18,6 +18,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {  HttpClientModule } from '@angular/common/http';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +41,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     HttpClientModule,
     MatTableModule,
     MatPaginatorModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

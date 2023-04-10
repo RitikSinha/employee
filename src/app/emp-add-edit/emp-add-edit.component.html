@@ -90,7 +90,11 @@
     </div>
   </div>
   <div mat-dialog-actions class="button">
-    <button mat-raised-button type="button">Cancel</button>
-    <button mat-raised-button color="primary" type="submit">Add</button>
+    <button mat-raised-button type="button" mat-dialog-close="false">
+      Cancel
+    </button>
+    <button mat-raised-button color="primary" type="submit">
+      {{ data ? "Update" : "Add" }}
+    </button>
   </div>
 </form>

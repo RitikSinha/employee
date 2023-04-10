@@ -9,7 +9,7 @@
       "education": "High School",
       "company": "Konfav",
       "salary": 12,
-      "experience": 12,
+      "experience": 11,
       "id": 1
     },
     {
@@ -21,8 +21,20 @@
       "education": "Graduate",
       "company": "konfav",
       "salary": 12,
-      "experience": 2,
+      "experience": 5,
       "id": 2
+    },
+    {
+      "firstName": "Ritik",
+      "lastName": "Kumar",
+      "email": "ritikk910@gmail.com",
+      "dob": "2016-01-09T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "microsoft",
+      "salary": 12,
+      "experience": 6,
+      "id": 3
     }
   ]
 }
